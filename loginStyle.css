@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color:  #fff;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #f35506;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #7c7a78;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%; /* Adiciona largura ao input-box */
+}
+
+.input-box i {
+  position: absolute;
+  left: 10px;
+  font-size: 18px; /* Ajuste conforme necessário */
+  color: #f35506;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  padding-left: 40px; /* Espaço para o ícone */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+label {
+  color: #000;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #f35506;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f35506;
+}
+
+.nova-conta {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.nova-conta a {
+  color: #f35506;
+  text-decoration: none;
+}
+
+.sign-up a:hover {
+  text-decoration: underline;
+}
